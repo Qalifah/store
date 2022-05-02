@@ -1,0 +1,4 @@
+
+type Mutation {
+  createTodo(payload: CreateTodoPayload!): Todo!
+}

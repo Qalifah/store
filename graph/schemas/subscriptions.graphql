@@ -1,0 +1,4 @@
+
+type Subscription {
+	latestTodo(userId: String!): Todo!
+}
